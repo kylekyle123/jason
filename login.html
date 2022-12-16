@@ -1,0 +1,81 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Login Page </title> 
+<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css"> 
+<style>   
+Body {  
+   font-family: Calibri, Helvetica, sans-serif;  
+    background-image: url(jason6.jpg);
+}  
+button {   
+       background-color: #4CAF50;   
+       width: 25%;  
+        color: orange;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+ 
+ input[type=text], input[type=password] {   
+        width: 50%;   
+        margin: 8px 0;  
+        padding: 10px;   
+        display: inline-block;   
+        border: 2px solid rgb(111, 16, 235);   
+        box-sizing: border-box;   
+    }  
+ button:hover {
+        color: azure;   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {  
+        color: aquamarine; 
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container {   
+        padding: 25px;   
+        margin: 50px;
+        background-color: transparent;  
+    }   
+    h1{
+        color: aqua;
+    }
+</style>   
+</head>    
+<body>   <div class="main">
+    <div class="navbar">
+        <img style="border-radius: 50%;" src="jason3.jpg"  class="logo" width="100px" >
+
+        <ul>
+           
+            <li><a href="index.html">INDEX</a></li>
+            <li><a href="profile.html">PROFILE</a></li>
+            <li><a href="hobbies.html">HOBBIES</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+           
+
+        </ul>
+    </div> 
+    <center> <h1> Student Login Form </h1> </center>   
+    <form>  
+        <div class="container">   
+           <center> <label><b>Username:</b> </label>   
+            <input type="text" placeholder="Enter Username" name="username" required>  
+            <br><label><b>Password:</b> </label>   
+            <input type="password" placeholder="Enter Password" name="password" required>  </center>
+            <center><button type="submit">Login</button> </center>  
+            <center><input type="checkbox" checked="checked"> Remember me   
+            <button type="button" class="cancelbtn"> Cancel</button>   
+            <a href="#">Forgot password? </a>  </center>   
+        </div>   
+    </form>     
+</body>     
+</html>
